@@ -1,6 +1,15 @@
-# E-Diaristas
+# E-Diaristas #
+
+#############################################
+
+
 Replicando o front-end do site E-Diaristas.
 
-Foram feitos a página HOME e CONTATO.
+Páginas replicadas: 
+
+- HOME
+- CONTATO
+
+#############################################
 
 Site totalmente responsivo.
