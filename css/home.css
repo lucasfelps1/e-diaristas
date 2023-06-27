@@ -70,6 +70,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .principal-description {
@@ -119,4 +120,27 @@ header {
     padding: 25px;
     font-size: 18px;
     border-radius: 50px;
+}
+
+.principal-image::after, 
+.principal-image::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+}
+
+.principal-image::before {
+    width: 131px;
+    height: 131px;
+    background-color: #6B2AEE;
+    top: 80px;
+}
+
+.principal-image::after {
+    width: 37px;
+    height: 37px;
+    background-color: var(--light-grey);
+    bottom: 30px;
+    z-index: 500;
 }
