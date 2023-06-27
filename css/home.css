@@ -56,3 +56,67 @@ header {
     font-weight: 400;
     border-radius: 25px;
 }
+
+/* Section Principal */
+
+.principal {
+    background-image: url('../img/bg-image-principal.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70%;
+}
+
+.principal-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal-description {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.principal-description p {
+    font-size: 20px;
+    color: var(--dark-grey);
+    padding: 0 35px;
+}
+
+.principal-diarista-text {
+    border: solid 2px var(--light-grey);
+    padding: 15px 35px;
+    border-radius: 70px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--dark-grey);
+    max-width: 370px;
+    position: relative;
+}
+
+.principal-diarista-text span {
+    color: var(--primary);
+}
+
+.principal-diarista-text::after {
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: var(--light-grey);
+    background-image: url('../img/icon-search-principal.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50%;
+    border-radius: 50%;
+    top: -15px;
+    right: -15px;
+}
+
+.principal-description a {
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+    border-radius: 50px;
+}
