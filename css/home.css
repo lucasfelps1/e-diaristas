@@ -154,7 +154,7 @@ header {
 .principal-secondary {
     background-image: linear-gradient(var(--secondary), var(--primary));
     margin-top: -70px;
-    padding: 100px 0;
+    padding: 100px 0 150px 0;
     color: white;
     position: relative;
 }
@@ -209,4 +209,17 @@ header {
     border: solid 2px #fff;
     border-radius: 50%;
     padding: 7px;
+}
+
+/* Section Faqs */
+
+.division-wave {
+    width: 100%;
+    height: 100px;
+    background-image: url("../img/wave.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    position: relative;
+    top: -50px;
 }
