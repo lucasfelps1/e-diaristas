@@ -1,4 +1,4 @@
-# E-Diaristas #
+# Replicação do site E-Diaristas #
 
 ![Alt text](screen.png)
 
@@ -8,10 +8,20 @@ Páginas replicadas:
 
 - HOME
 - LOGIN
-
+  
 TECNOLOGIAS USADAS: 
 
-<i class="devicon-html5-plain-wordmark colored"></i>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+
+IMPLEMENTAÇÕES FUTURAS: 
+
+NONE
+
+STATUS: 
+
+FINISHED.
           
 
 
