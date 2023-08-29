@@ -2,9 +2,6 @@
 
 ![Alt text](screen.png)
 
-#############################################
-
-
 Replicando o front-end do site E-Diaristas.
 
 Páginas replicadas: 
@@ -12,6 +9,9 @@ Páginas replicadas:
 - HOME
 - LOGIN
 
-#############################################
+TECNOLOGIAS USADAS: 
 
-Site totalmente responsivo.
+<i class="devicon-html5-plain-wordmark colored"></i>
+          
+
+
